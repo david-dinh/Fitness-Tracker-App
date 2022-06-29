@@ -1,4 +1,4 @@
-const WourkoutDetails = ({workout}) => {
+const WorkoutDetails = ({workout}) => {
     return (
         <div className="workout-details">
             <h4>{workout.title}</h4>
@@ -9,4 +9,4 @@ const WourkoutDetails = ({workout}) => {
     );
 }
  
-export default WourkoutDetails;
+export default WorkoutDetails;
